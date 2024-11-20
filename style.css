@@ -4,12 +4,12 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin: 20px;
     padding: 0;
-    background-color: white;
+    background-color: rgba(57, 138, 118, 0.664);
 }
 
 form {
     margin: auto;
-    background-color: rgb(228, 242, 255);
+    background-color: rgba(127, 214, 109, 0.438);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -26,7 +26,7 @@ fieldset {
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
-    background-color: aliceblue;
+    background-color: rgb(101, 150, 113);
 }
 
 legend {
@@ -46,7 +46,7 @@ input,textarea {
     margin-top: 4px;
     padding: 8px;
     width: calc(100% - 1px);
-    border: 1px solid skyblue;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -67,7 +67,7 @@ button {
 }
 
 button :hover {
-    color: blue;
+    color: rgba(228, 70, 70, 0.651);
 }
 
 #resume-display {
@@ -76,7 +76,7 @@ button :hover {
     padding: 20px;
     border: 2px solid skyblue;
     border-radius: 8px;
-    background-color: rgb(228, 242, 255);
+    background-color: rgb(74, 190, 194);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     /* making the resume editable */
     outline: none;
